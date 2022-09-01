@@ -1,4 +1,4 @@
-const response = [
+const data = [
   {
     id: 1,
     name: "Some content goes here",
@@ -17,7 +17,7 @@ exports.handler = async (event) => {
   // TODO implement
   const response = {
     statusCode: 200,
-    body: JSON.stringify(response),
+    body: JSON.stringify(data),
   };
   return response;
 };
